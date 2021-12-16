@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB658B7927620ED50034CC12 /* INKHUNTER__refined_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB658B7827620ED50034CC12 /* INKHUNTER__refined_App.swift */; };
+		AB658B7B27620ED50034CC12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB658B7A27620ED50034CC12 /* ContentView.swift */; };
+		AB658B7D27620ED70034CC12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB658B7C27620ED70034CC12 /* Assets.xcassets */; };
+		AB658B8027620ED70034CC12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB658B7F27620ED70034CC12 /* Preview Assets.xcassets */; };
+		AB658B8B27620F480034CC12 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB658B8A27620F480034CC12 /* Card.swift */; };
+		AB658B8D2762103F0034CC12 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB658B8C2762103F0034CC12 /* Home.swift */; };
+		AB658B8F276216DC0034CC12 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB658B8E276216DB0034CC12 /* Settings.swift */; };
+		AB658B9127621C5E0034CC12 /* MyTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB658B9027621C5E0034CC12 /* MyTab.swift */; };
+		AB658B9327621EA30034CC12 /* MyTattoos.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB658B9227621EA30034CC12 /* MyTattoos.swift */; };
+		AB658B9527621EFA0034CC12 /* MyPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB658B9427621EFA0034CC12 /* MyPhotos.swift */; };
+		AB658B97276235EB0034CC12 /* TattoosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB658B96276235EB0034CC12 /* TattoosView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB658B7527620ED50034CC12 /* INKHUNTER (refined).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "INKHUNTER (refined).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB658B7827620ED50034CC12 /* INKHUNTER__refined_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INKHUNTER__refined_App.swift; sourceTree = "<group>"; };
+		AB658B7A27620ED50034CC12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB658B7C27620ED70034CC12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB658B7F27620ED70034CC12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB658B8A27620F480034CC12 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		AB658B8C2762103F0034CC12 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AB658B8E276216DB0034CC12 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		AB658B9027621C5E0034CC12 /* MyTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTab.swift; sourceTree = "<group>"; };
+		AB658B9227621EA30034CC12 /* MyTattoos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTattoos.swift; sourceTree = "<group>"; };
+		AB658B9427621EFA0034CC12 /* MyPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPhotos.swift; sourceTree = "<group>"; };
+		AB658B96276235EB0034CC12 /* TattoosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TattoosView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB658B7227620ED50034CC12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB658B6C27620ED50034CC12 = {
+			isa = PBXGroup;
+			children = (
+				AB658B7727620ED50034CC12 /* INKHUNTER (refined) */,
+				AB658B7627620ED50034CC12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB658B7627620ED50034CC12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB658B7527620ED50034CC12 /* INKHUNTER (refined).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB658B7727620ED50034CC12 /* INKHUNTER (refined) */ = {
+			isa = PBXGroup;
+			children = (
+				AB658B7827620ED50034CC12 /* INKHUNTER__refined_App.swift */,
+				AB658B8827620F2B0034CC12 /* Model */,
+				AB658B8927620F330034CC12 /* View */,
+				AB658B7C27620ED70034CC12 /* Assets.xcassets */,
+				AB658B7E27620ED70034CC12 /* Preview Content */,
+			);
+			path = "INKHUNTER (refined)";
+			sourceTree = "<group>";
+		};
+		AB658B7E27620ED70034CC12 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB658B7F27620ED70034CC12 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB658B8827620F2B0034CC12 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB658B8A27620F480034CC12 /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB658B8927620F330034CC12 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB658B7A27620ED50034CC12 /* ContentView.swift */,
+				AB658B8C2762103F0034CC12 /* Home.swift */,
+				AB658B8E276216DB0034CC12 /* Settings.swift */,
+				AB658B9227621EA30034CC12 /* MyTattoos.swift */,
+				AB658B96276235EB0034CC12 /* TattoosView.swift */,
+				AB658B9427621EFA0034CC12 /* MyPhotos.swift */,
+				AB658B9027621C5E0034CC12 /* MyTab.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB658B7427620ED50034CC12 /* INKHUNTER (refined) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB658B8327620ED70034CC12 /* Build configuration list for PBXNativeTarget "INKHUNTER (refined)" */;
+			buildPhases = (
+				AB658B7127620ED50034CC12 /* Sources */,
+				AB658B7227620ED50034CC12 /* Frameworks */,
+				AB658B7327620ED50034CC12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "INKHUNTER (refined)";
+			productName = "INKHUNTER (refined)";
+			productReference = AB658B7527620ED50034CC12 /* INKHUNTER (refined).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB658B6D27620ED50034CC12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AB658B7427620ED50034CC12 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = AB658B7027620ED50034CC12 /* Build configuration list for PBXProject "INKHUNTER (refined)" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB658B6C27620ED50034CC12;
+			productRefGroup = AB658B7627620ED50034CC12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB658B7427620ED50034CC12 /* INKHUNTER (refined) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB658B7327620ED50034CC12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB658B8027620ED70034CC12 /* Preview Assets.xcassets in Resources */,
+				AB658B7D27620ED70034CC12 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB658B7127620ED50034CC12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB658B97276235EB0034CC12 /* TattoosView.swift in Sources */,
+				AB658B7B27620ED50034CC12 /* ContentView.swift in Sources */,
+				AB658B7927620ED50034CC12 /* INKHUNTER__refined_App.swift in Sources */,
+				AB658B8D2762103F0034CC12 /* Home.swift in Sources */,
+				AB658B8B27620F480034CC12 /* Card.swift in Sources */,
+				AB658B9527621EFA0034CC12 /* MyPhotos.swift in Sources */,
+				AB658B9127621C5E0034CC12 /* MyTab.swift in Sources */,
+				AB658B8F276216DC0034CC12 /* Settings.swift in Sources */,
+				AB658B9327621EA30034CC12 /* MyTattoos.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB658B8127620ED70034CC12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB658B8227620ED70034CC12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB658B8427620ED70034CC12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"INKHUNTER (refined)/Preview Content\"";
+				DEVELOPMENT_TEAM = XEW3LDVT97;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Munich.INKHUNTER--refined-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB658B8527620ED70034CC12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"INKHUNTER (refined)/Preview Content\"";
+				DEVELOPMENT_TEAM = XEW3LDVT97;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Munich.INKHUNTER--refined-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB658B7027620ED50034CC12 /* Build configuration list for PBXProject "INKHUNTER (refined)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB658B8127620ED70034CC12 /* Debug */,
+				AB658B8227620ED70034CC12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB658B8327620ED70034CC12 /* Build configuration list for PBXNativeTarget "INKHUNTER (refined)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB658B8427620ED70034CC12 /* Debug */,
+				AB658B8527620ED70034CC12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB658B6D27620ED50034CC12 /* Project object */;
+}
