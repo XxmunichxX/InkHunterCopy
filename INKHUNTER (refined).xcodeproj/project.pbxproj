@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB4EC69E2781DB6500890C81 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4EC69D2781DB6500890C81 /* Camera.swift */; };
 		AB658B7927620ED50034CC12 /* INKHUNTER__refined_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB658B7827620ED50034CC12 /* INKHUNTER__refined_App.swift */; };
 		AB658B7B27620ED50034CC12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB658B7A27620ED50034CC12 /* ContentView.swift */; };
 		AB658B7D27620ED70034CC12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB658B7C27620ED70034CC12 /* Assets.xcassets */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB4EC69D2781DB6500890C81 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		AB4EC69F2781E47C00890C81 /* INKHUNTER--refined--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "INKHUNTER--refined--Info.plist"; sourceTree = SOURCE_ROOT; };
 		AB658B7527620ED50034CC12 /* INKHUNTER (refined).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "INKHUNTER (refined).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB658B7827620ED50034CC12 /* INKHUNTER__refined_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INKHUNTER__refined_App.swift; sourceTree = "<group>"; };
 		AB658B7A27620ED50034CC12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +68,7 @@
 		AB658B7727620ED50034CC12 /* INKHUNTER (refined) */ = {
 			isa = PBXGroup;
 			children = (
+				AB4EC69F2781E47C00890C81 /* INKHUNTER--refined--Info.plist */,
 				AB658B7827620ED50034CC12 /* INKHUNTER__refined_App.swift */,
 				AB658B8827620F2B0034CC12 /* Model */,
 				AB658B8927620F330034CC12 /* View */,
@@ -94,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				AB658B7A27620ED50034CC12 /* ContentView.swift */,
+				AB4EC69D2781DB6500890C81 /* Camera.swift */,
 				AB658B8C2762103F0034CC12 /* Home.swift */,
 				AB658B8E276216DB0034CC12 /* Settings.swift */,
 				AB658B9227621EA30034CC12 /* MyTattoos.swift */,
@@ -180,6 +185,7 @@
 				AB658B8D2762103F0034CC12 /* Home.swift in Sources */,
 				AB658B8B27620F480034CC12 /* Card.swift in Sources */,
 				AB658B9527621EFA0034CC12 /* MyPhotos.swift in Sources */,
+				AB4EC69E2781DB6500890C81 /* Camera.swift in Sources */,
 				AB658B9127621C5E0034CC12 /* MyTab.swift in Sources */,
 				AB658B8F276216DC0034CC12 /* Settings.swift in Sources */,
 				AB658B9327621EA30034CC12 /* MyTattoos.swift in Sources */,
@@ -316,6 +322,8 @@
 				DEVELOPMENT_TEAM = XEW3LDVT97;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "INKHUNTER--refined--Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The camera can be used to shot a tattoo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -345,6 +353,8 @@
 				DEVELOPMENT_TEAM = XEW3LDVT97;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "INKHUNTER--refined--Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The camera can be used to shot a tattoo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
